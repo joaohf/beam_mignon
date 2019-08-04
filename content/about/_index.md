@@ -10,4 +10,7 @@ _BEAM_ (Bogdan's Erlang Abstract Machine): [The Erlang BEAM Virtual Machine Spec
 
 _Mignon_, amistoso, gentil, favorito.
 
+## colophon
+
+O código fonte deste blog pode ser visto em [beam_mignon](https://github.com/joaohf/beam_mignon). Usei framework [hugo](https://gohugo.io/) para a criação das páginas estáticas e o theme escolhido foi [Ananke](https://themes.gohugo.io/gohugo-theme-ananke/). O sistema de deploy e publicação é o [Netlify](https://www.netlify.com/) integrado com o github.
 
