@@ -1,0 +1,41 @@
+title = "BEAM Mignon"
+baseURL = "https://joaohf.github.io/beam_mignon/"
+languageCode = "pt-br"
+theme = "ananke"
+DefaultContentLanguage = "pt-br"
+copyright = "Everything is mine"
+enableRobotsTXT = true
+Paginate = 6
+SectionPagesMenu = "main"
+
+[languages]
+  [languages.pt-br]
+    languageName = "Brazilian Portuguese"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    weight = 2
+
+[params]
+  favicon = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = "https://github.com/joaohf/"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/joão-henrique-freitas"
+  mastodon = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  recent_posts_number = 2
+
+[author]
+  name = "João Henrique Ferreira de Freitas"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
