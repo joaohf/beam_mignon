@@ -7,6 +7,7 @@ copyright = "Everything is mine"
 enableRobotsTXT = true
 Paginate = 6
 SectionPagesMenu = "main"
+googleAnalytics = "UA-145112810-1"
 
 [languages]
   [languages.pt-br]
