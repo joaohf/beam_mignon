@@ -1,5 +1,5 @@
 title = "BEAM Mignon"
-baseURL = "https://joaohf.github.io/beam_mignon/"
+baseURL = "https://beam-mignon.netlify.com/"
 languageCode = "pt-br"
 theme = "ananke"
 DefaultContentLanguage = "pt-br"
