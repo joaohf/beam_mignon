@@ -2,7 +2,7 @@
 title: "Ativando traces usando LTTng"
 description: ""
 date: 2019-09-09T21:33:50+02:00
-tags: ["code", "trace"]
+tags: ["code", "trace", "runtime_tools"]
 series: ["traces"]
 ---
 
@@ -75,6 +75,8 @@ Erlang/OTP 22 [erts-10.4.4] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threa
 Eshell V10.4.4  (abort with ^G)
 1> 
 {{< / highlight >}}
+
+Repare que ativamos o suporte ao LTTng com sucesso pois a opção _[lttng]_ apareceu na shell.
 
 ## Exemplos usando LTTng e BEAM
 
