@@ -3,7 +3,7 @@ title: "Opções para repositório de pacotes hex.pm"
 description: ""
 date: 2019-08-30T22:43:50+02:00
 tags: ["intro"]
-series: ["intro"]
+series: ["101"]
 ---
 
 Quando desenvolvemos em Elixir ou Erlang, de forma open source, geralmente publicamos o código em um repositório de código público e também divulgamos no [hex.pm](https://hex.pm) para que outros usuários possam encontrar e usar. 

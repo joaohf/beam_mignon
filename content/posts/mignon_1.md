@@ -3,8 +3,7 @@ title: "No Meio do Caminho tinha uma pedra"
 description: "Pedras e problemas possuem algo em comum; se mudar a atitude, outras estrégias aparecem para resolver as questões."
 date: 2019-07-21T22:43:50+02:00
 tags: ["intro"]
-categories: ["Development"]
-series: ["intro"]
+series: ["101"]
 ---
 
 # Como conheci Erlang/OTP
