@@ -163,9 +163,9 @@ Query OK, 1 row affected (0.00 sec)
 
 A implementação é bastante simples:
 
-1. No arquivo [elock_sqlapi.erl](https://github.com/joaohf/elock/src/elock_sqlapi.erl) implementamos todas as callback do behaviour [sqlapi.erl](https://github.com/joaohf/sqlapi/src/sqlapi.erl) necessárias
+1. No arquivo [elock_sqlapi.erl](https://github.com/joaohf/elock/blob/mignon-17/src/elock_sqlapi.erl) implementamos todas as callback do behaviour [sqlapi.erl](https://github.com/joaohf/sqlapi/src/sqlapi.erl) necessárias
 2. Quando a aplicação recebe alguma query, a biblioteca sqlapi faz o parser e chama alguma função do módulo elock_sqlapi para fazer o tratamento.
-3. Em seguida a máquina de estado [elock_statem.erl](https://github.com/joaohf/elock/src/elock_statem.erl) é chamada para retornar ou configurar os valores da query
+3. Em seguida a máquina de estado [elock_statem.erl](https://github.com/joaohf/elock/blob/mignon-17/src/elock_statem.erl) é chamada para retornar ou configurar os valores da query
 4. O último passo é retornar as respostas para a sqlapi no qual vai fazer todo o tratamento da resposta.
 
 Desenvolvendo mais esta ideia, podemos conectar algum framework para ORM e rapidamente ter uma interface web na qual utilize as tabelas acima citadas.
