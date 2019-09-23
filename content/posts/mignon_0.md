@@ -1,6 +1,7 @@
 ---
 title: "Introdução do BEAM Mignon"
 description: "É um blog em Português sobre BEAM, Erlang Virtual Machine"
+toc: true
 date: 2019-07-20T22:43:50+02:00
 tags: ["intro"]
 series: ["101"]

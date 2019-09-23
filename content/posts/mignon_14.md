@@ -1,6 +1,7 @@
 ---
 title: "Opções para repositório de pacotes hex.pm"
 description: ""
+toc: true
 date: 2019-08-30T22:43:50+02:00
 tags: ["intro"]
 series: ["101"]

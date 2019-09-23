@@ -1,6 +1,7 @@
 ---
 title: "Gerenciamento out-of-band: SQL"
 description: ""
+toc: true
 date: 2019-09-14T22:43:50+02:00
 series: ["out-of-band"] 
 tags: ["code", "sql"]
@@ -61,7 +62,7 @@ A estrutura do nosso exemplo vai ser uma aplicação Erlang/OTP contendo os segu
 
 Disponibilizei o código que iremos trabalhar aqui: [elock](https://github.com/joaohf/elock). E ao longo dos posts futuros vou melhorando e incrementando com novas funcionalidades.
 
-## Out-of-band: SQL server
+## SQL server
 
 A ideia é embutir uma API SQL e imitar um servidor SQL, dentro da aplicação. Isso pode ser feito a partir de uma conexão TCP na qual escuta conexões em determinada porta, usando algum protocolo no qual implemente um servidor SQL. A linguagem SQL é padronizada mas o protocolo usado pelos serviços não (exemplo: Postgresql e Mysql), mas documentados:
 

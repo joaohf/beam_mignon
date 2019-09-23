@@ -1,6 +1,7 @@
 ---
 title: "Melhores práticas para começar um projeto"
 description: "Quais são as melhores práticas para iniciar um projeto?"
+toc: true
 date: 2019-08-05T22:00:50+02:00
 tags: ["tools"]
 ---

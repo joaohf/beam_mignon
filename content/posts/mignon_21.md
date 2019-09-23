@@ -1,6 +1,7 @@
 ---
 title: "Gerenciamento out-of-band: SSH"
 description: ""
+toc: true
 date: 2019-09-21T22:43:50+02:00
 series: ["out-of-band"] 
 tags: ["code", "ssh"]
@@ -28,11 +29,13 @@ Algumas premissas para utilizar este recurso são:
 
 Ainda utilizando a aplicação _elock_, vamos expandir a implementação para suportar os nossos requisitos.
 
-A implementação foi dividida nos sequintes módulos:
+A implementação foi dividida nos seguintes módulos:
 
 * [src/elock_ssh_oob.erl](https://github.com/joaohf/elock/blob/mignon-21/src/elock_ssh_oob.erl), é um gen_server no qual faz a configuração do [ssh:daemon/2](http://erlang.org/doc/man/ssh.html#daemon-2). Estamos usando a opção [ ssh_cli_daemon_option](http://erlang.org/doc/man/ssh.html#type-ssh_cli_daemon_option) para utilizar o módulo [src/elock_ssh_cli.erl](https://github.com/joaohf/elock/blob/mignon-21/src/elock_ssh_cli.erl) no qual implementamos a nossa interface com os comandos da aplicação elock
 * [src/elock_ssh_server_key_api.erl](https://github.com/joaohf/elock/blob/mignon-21/src/elock_ssh_server_key_api.erl), neste módulo implementamos as callbacks necessárias para o behaviour [ssh_server_key_api](http://erlang.org/doc/man/ssh_server_key_api.html). Para o nosso exemplo, estamos gerando uma chave do servidor ssh e também desabilitamos a autenticação baseada em chaves públicas. 
 * [src/elock_ssh_cli.erl](https://github.com/joaohf/elock/blob/mignon-21/src/elock_ssh_cli.erl) é o módulo responsável por receber um comando, verificar na lista de comandos e executar. Podemos implementar qualquer comando necessário e formatar o resultado do jeito que precisamos. Basicamente é onde o usuário vai interagir com o sistema.
+
+O resultado final pode ser visto no vídeo abaixo:
 
 {{< asciicast kxxlsKs20Gyuj1Vece5y2I7Z1 >}}
 
@@ -40,3 +43,5 @@ A implementação foi dividida nos sequintes módulos:
 ## Conclusão
 
 Abordamos neste post uma forma diferente de prover acesso via SSH conectado direto na aplicação. Dependemos de uma aplicação do OTP no qual já foi bem testada e utilizada amplamente com bastante features e altamente configurável. O uso de conexões SSH, utilizando qualquer cliente SSH é universal. Com certeza é uma alternativa bastante segura para a implementação.
+
+Caso você necessite de mais flexibilidade, a aplicação SSH no modo servidor permite configurar várias callbacks para extender a funcionalidade. Recomendo a leitura da documentação.

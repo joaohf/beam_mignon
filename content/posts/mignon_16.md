@@ -1,6 +1,7 @@
 ---
 title: "meta-erlang com LTTng"
 description: ""
+toc: true
 date: 2019-09-11T22:43:50+02:00
 tags: ["code", "trace", "yocto", "runtime_tools"]
 series: ["traces"]

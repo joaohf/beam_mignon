@@ -1,6 +1,7 @@
 ---
 title: "meta-erlang"
 description: ""
+toc: true
 date: 2019-08-04T22:00:50+02:00
 tags: ["yocto"]
 ---

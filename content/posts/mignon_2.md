@@ -1,6 +1,7 @@
 ---
 title: "Como vejo a BEAM VM"
 description: ""
+toc: true
 date: 2019-07-22T22:43:50+02:00
 tags: ["intro"]
 series: ["101"]

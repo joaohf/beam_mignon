@@ -1,6 +1,7 @@
 ---
 title: "Trace instrumentando o código com dbg"
 description: ""
+toc: true
 date: 2019-08-17T12:15:50+02:00
 tags: ["code", "trace"]
 series: ["traces"]

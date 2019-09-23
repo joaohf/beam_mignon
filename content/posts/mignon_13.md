@@ -1,6 +1,7 @@
 ---
 title: "Erlang Ecosystem Foundation"
 description: "EEF"
+toc: true
 date: 2019-08-27T22:43:50+02:00
 tags: ["intro"]
 series: ["101"]

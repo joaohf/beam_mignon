@@ -1,6 +1,7 @@
 ---
 title: "Elixir: mocks, stubs"
 description: ""
+toc: true
 date: 2019-08-13T17:43:50+02:00
 tags: ["testes"]
 series: ["vamos testar"]

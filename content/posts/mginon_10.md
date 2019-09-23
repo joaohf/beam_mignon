@@ -1,6 +1,7 @@
 ---
 title: "Erlang: bad parts"
 description: ""
+toc: true
 date: 2019-08-11T21:43:50+02:00
 tags: ["intro"]
 series: ["101"]

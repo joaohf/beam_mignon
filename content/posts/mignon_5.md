@@ -1,6 +1,7 @@
 ---
 title: "Vamos testar: exunit"
 description: "Como testar, em Elixir"
+toc: true
 date: 2019-08-13T18:17:50+02:00
 tags: ["testes"]
 series: ["vamos testar"]
