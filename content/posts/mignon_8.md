@@ -1,6 +1,7 @@
 ---
 title: "Polibot"
 description: "Um robô para testes"
+toc: true
 date: 2019-08-24T18:00:50+02:00
 tags: ["projeto", "testes"]
 ---

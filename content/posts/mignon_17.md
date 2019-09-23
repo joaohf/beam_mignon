@@ -1,9 +1,10 @@
 ---
 title: "Gerenciamento out-of-band: SQL"
 description: ""
+toc: true
 date: 2019-09-14T22:43:50+02:00
 series: ["out-of-band"] 
-tags: ["code", "sql"]
+tags: ["code", "sql", "elock"]
 ---
 
 A ideia deste post é abordar algumas maneiras de fazer um gerenciamento out-of-band de uma aplicação. E a inspiração veio desta discussão [sqlapi: library to connect to your erlang server via SQL](http://erlang.org/pipermail/erlang-questions/2018-March/095064.html):
@@ -61,7 +62,7 @@ A estrutura do nosso exemplo vai ser uma aplicação Erlang/OTP contendo os segu
 
 Disponibilizei o código que iremos trabalhar aqui: [elock](https://github.com/joaohf/elock). E ao longo dos posts futuros vou melhorando e incrementando com novas funcionalidades.
 
-## Out-of-band: SQL server
+## SQL server
 
 A ideia é embutir uma API SQL e imitar um servidor SQL, dentro da aplicação. Isso pode ser feito a partir de uma conexão TCP na qual escuta conexões em determinada porta, usando algum protocolo no qual implemente um servidor SQL. A linguagem SQL é padronizada mas o protocolo usado pelos serviços não (exemplo: Postgresql e Mysql), mas documentados:
 
@@ -163,9 +164,9 @@ Query OK, 1 row affected (0.00 sec)
 
 A implementação é bastante simples:
 
-1. No arquivo [elock_sqlapi.erl](https://github.com/joaohf/elock/src/elock_sqlapi.erl) implementamos todas as callback do behaviour [sqlapi.erl](https://github.com/joaohf/sqlapi/src/sqlapi.erl) necessárias
+1. No arquivo [elock_sqlapi.erl](https://github.com/joaohf/elock/blob/mignon-17/src/elock_sqlapi.erl) implementamos todas as callback do behaviour [sqlapi.erl](https://github.com/joaohf/sqlapi/src/sqlapi.erl) necessárias
 2. Quando a aplicação recebe alguma query, a biblioteca sqlapi faz o parser e chama alguma função do módulo elock_sqlapi para fazer o tratamento.
-3. Em seguida a máquina de estado [elock_statem.erl](https://github.com/joaohf/elock/src/elock_statem.erl) é chamada para retornar ou configurar os valores da query
+3. Em seguida a máquina de estado [elock_statem.erl](https://github.com/joaohf/elock/blob/mignon-17/src/elock_statem.erl) é chamada para retornar ou configurar os valores da query
 4. O último passo é retornar as respostas para a sqlapi no qual vai fazer todo o tratamento da resposta.
 
 Desenvolvendo mais esta ideia, podemos conectar algum framework para ORM e rapidamente ter uma interface web na qual utilize as tabelas acima citadas.

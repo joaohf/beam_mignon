@@ -1,9 +1,10 @@
 ---
 title: "Erlang Ecosystem Foundation"
 description: "EEF"
+toc: true
 date: 2019-08-27T22:43:50+02:00
 tags: ["intro"]
-series: ["intro"]
+series: ["101"]
 ---
 
 Este post é uma pequena nota sobre [Erlang Ecosystem Foundation](https://erlef.org). Basicamente é uma organização sem fins [lucrativos](https://erlef.org/bylaws/) onde um conjunto de membros trabalham em diversos grupos de trabalho.

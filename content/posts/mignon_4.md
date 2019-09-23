@@ -1,6 +1,7 @@
 ---
 title: "Vamos testar: common_test"
 description: "Testes funcionais e de integração, em Erlang"
+toc: true
 date: 2019-08-06T21:30:50+02:00
 tags: ["testes"]
 series: ["vamos testar"]

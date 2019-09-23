@@ -1,6 +1,7 @@
 ---
 title: "Vamos testar: eunit"
 description: "Como testar código unitariamente, em Erlang"
+toc: true
 date: 2019-08-06T21:00:50+02:00
 tags: ["testes"]
 series: ["vamos testar"]

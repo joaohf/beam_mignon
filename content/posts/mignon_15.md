@@ -1,6 +1,7 @@
 ---
 title: "Ativando traces usando LTTng"
 description: ""
+toc: true
 date: 2019-09-09T21:33:50+02:00
 tags: ["code", "trace", "runtime_tools"]
 series: ["traces"]

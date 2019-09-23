@@ -41,3 +41,20 @@ disqusShortname = "beammignon"
   category = "categories"
   series = "series"
   tag = "tags"
+
+[related]
+threshold = 80.0
+includeNewer = true
+toLower = false
+
+  [[related.indices]]
+  name = "series"
+  weight = 100.0
+
+  [[related.indices]]
+  name = "tags"
+  weight = 110.0
+
+  [[related.indices]]
+  name = "date"
+  weight = 10.0

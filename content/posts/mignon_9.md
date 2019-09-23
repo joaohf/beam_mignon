@@ -1,6 +1,7 @@
 ---
 title: "Vamos testar: lux"
 description: "Testando no estilo expect"
+toc: true
 date: 2019-08-06T21:43:50+02:00
 tags: ["testes"]
 series: ["vamos testar"]
