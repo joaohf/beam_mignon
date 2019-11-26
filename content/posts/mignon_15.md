@@ -5,6 +5,7 @@ toc: true
 date: 2019-09-09T21:33:50+02:00
 tags: ["code", "trace", "runtime_tools"]
 series: ["traces"]
+featured_image: 'images/featured/20190823_131050-1-1.jpg'
 ---
 
 Neste post vamos descobrir como podemos instrumentar aplicações Erlang/Elixir dinamicamente.

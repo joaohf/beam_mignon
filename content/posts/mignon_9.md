@@ -5,6 +5,7 @@ toc: true
 date: 2019-08-06T21:43:50+02:00
 tags: ["testes"]
 series: ["vamos testar"]
+featured_image: 'images/featured/20190823_131050-1-2.jpg'
 ---
 
 [lux](https://github.com/hawk/lux) é um framework para automação de testes utilizando o estilo Expect (https://en.wikipedia.org/wiki/Expect, https://core.tcl-lang.org/expect/index).

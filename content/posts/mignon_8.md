@@ -4,6 +4,7 @@ description: "Um robô para testes"
 toc: true
 date: 2019-08-24T18:00:50+02:00
 tags: ["projeto", "testes"]
+featured_image: 'images/featured/20190823_131050-2-2.jpg'
 ---
 
 `polibot` é um pequeno projeto demonstrando como testar um equipamento fictício utilizando Erlang e o framework `common_test`.

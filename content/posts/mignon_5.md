@@ -5,6 +5,7 @@ toc: true
 date: 2019-08-13T18:17:50+02:00
 tags: ["testes"]
 series: ["vamos testar"]
+featured_image: 'images/featured/20190823_131050-3-3.jpg'
 ---
 
 [ExUnit](https://hexdocs.pm/ex_unit/ExUnit.html) é o framework padrão quando falamos de testes em Elixir. Ele é simples e ao mesmo tempo poderoso.

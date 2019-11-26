@@ -5,6 +5,7 @@ toc: true
 date: 2019-08-27T22:43:50+02:00
 tags: ["intro"]
 series: ["101"]
+featured_image: 'images/featured/20190823_131050-3-1.jpg'
 ---
 
 Este post é uma pequena nota sobre [Erlang Ecosystem Foundation](https://erlef.org). Basicamente é uma organização sem fins [lucrativos](https://erlef.org/bylaws/) onde um conjunto de membros trabalham em diversos grupos de trabalho.

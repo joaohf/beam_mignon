@@ -5,6 +5,7 @@ toc: true
 date: 2019-09-14T22:43:50+02:00
 series: ["out-of-band"] 
 tags: ["code", "sql", "elock"]
+featured_image: 'images/featured/20190823_131050-3-0.jpg'
 ---
 
 A ideia deste post é abordar algumas maneiras de fazer um gerenciamento out-of-band de uma aplicação. E a inspiração veio desta discussão [sqlapi: library to connect to your erlang server via SQL](http://erlang.org/pipermail/erlang-questions/2018-March/095064.html):

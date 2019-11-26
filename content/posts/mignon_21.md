@@ -5,6 +5,7 @@ toc: true
 date: 2019-09-21T22:43:50+02:00
 series: ["out-of-band"] 
 tags: ["code", "ssh", "elock"]
+featured_image: 'images/featured/20190823_131050-1-0.jpg'
 ---
 
 No primeiro artigo [Gerenciamento out-of-band: SQL]({{< ref "/posts/mignon_17.md" >}}), introduzimos a ideia geral do out-of-band. Neste post vamos continuar e implementar uma outra forma de acesso. Desta vez utilizando um servidor SSH embutido na aplicação.

@@ -4,6 +4,7 @@ description: "Quais são as melhores práticas para iniciar um projeto?"
 toc: true
 date: 2019-08-05T22:00:50+02:00
 tags: ["tools"]
+featured_image: 'images/featured/20190823_131050-0-3.jpg'
 ---
 
 Algumas dicas e guias gerais para começar um projeto.

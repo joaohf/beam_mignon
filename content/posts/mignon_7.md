@@ -4,6 +4,7 @@ description: ""
 toc: true
 date: 2019-08-04T22:00:50+02:00
 tags: ["yocto"]
+featured_image: 'images/featured/20190823_131050-3-2.jpg'
 ---
 
 `meta-erlang` é uma layer compatível com o [Yocto Project](https://www.yoctoproject.org/) e [Openembedded](https://www.openembedded.org/wiki/Main_Page). A intenção é trazer Erlang e Elixir como alternativas para o desenvolvimento de aplicações embarcadas.
