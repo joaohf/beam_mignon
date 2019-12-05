@@ -5,6 +5,7 @@ toc: true
 date: 2019-09-11T22:43:50+02:00
 tags: ["code", "trace", "yocto", "runtime_tools"]
 series: ["traces"]
+featured_image: 'images/featured/20190823_131050-0-1.jpg'
 ---
 
 Neste post vamos ativar o suporte LTTng na BEAM VM usando o projeto Yocto com a layer [meta-erlang](https://github.com/joaohf/meta-erlang). O objetivo é demonstrar como podemos fazer a análise de um problema utilizando esta abordagem.

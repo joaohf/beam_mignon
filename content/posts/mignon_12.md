@@ -5,6 +5,7 @@ toc: true
 date: 2019-08-17T12:15:50+02:00
 tags: ["code", "trace"]
 series: ["traces"]
+featured_image: 'images/featured/20190823_131050-0-2.jpg'
 ---
 
 Este post é sobre como instrumentar uma aplicação e coletar traces para posterior analise. A ideia veio deste post: [Erlang trace files in Wireshark](https://www.erlang-solutions.com/blog/erlang-trace-files-in-wireshark.html) e também deste código [hackney_trace.erl](https://github.com/benoitc/hackney/blob/master/src/hackney_trace.erl).
