@@ -1,0 +1,126 @@
+@startuml
+
+!include https://raw.githubusercontent.com/joaohf/OTP-PlantUML/master/OTP_SupervisorTree.iuml
+' uncomment the following line and comment the first to use locally
+'!include OTP_SupervisorTree.iuml
+
+Supervisor(eclero_sup, "eclero_sup", "one_for_one")
+GenServer(eclero_detector_server, "eclero_detector_server")
+GenServer(eclero_decision_server, "eclero_decision_server")
+
+Rel(eclero_sup, eclero_detector_server)
+Rel(eclero_sup, eclero_decision_server)
+
+newpage
+
+node node1 {
+  rectangle "eclero" <<beam VM>> as e1
+}
+
+node node2 {
+  rectangle "eclero" <<beam VM>> as e2
+}
+
+node node3 {
+  rectangle "eclero" <<erlang VM>> as e3
+}
+
+newpage
+
+node devel_host {
+  rectangle "ct" <<erlang node>> as h1
+
+  rectangle "eclero1" <<erlang node>> as e1
+
+  rectangle "eclero2" <<erlang node>> as e2
+
+  rectangle "eclero3" <<erlang node>> as e3
+}
+
+h1 -d- e1
+h1 -d- e2
+h1 -d- e3
+
+e1 .d. e2
+e1 .d. e3
+e3 .l. e2
+
+newpage
+
+title All nodes working
+
+actor "user" as user
+
+node "eclero 1 <&thumb-up>" <<node>> as n1
+
+node "eclero 2 <&thumb-up>" <<node>> as n2
+
+node "eclero 3 <&thumb-up>" <<node>> as n3
+
+n1 -d- n2 : <&heart>
+n1 -d- n3 : <&heart>
+n3 -l- n2 : <&heart>
+
+user -l-> n1 : **1** is alive?
+n1 .l.> user : **2** yes, I'm
+
+legend
+<&heart> good connection
+<&thumb-up> node up
+end legend
+
+newpage
+
+title Lost one node
+
+actor "user" as user
+
+node "eclero 1 <&thumb-up>" <<node>> as n1
+
+node "eclero 2 <&thumb-up>" <<node>> as n2
+
+node "eclero 3 <&thumb-down>" <<node>> as n3
+
+n1 -d- n2 : <&heart>
+n1 .d. n3 : <&x>
+n3 .l. n2 : <&x>
+
+user -l-> n1 : **1** is alive?
+n1 .l.> user : **2** no, I'm\nnot
+
+legend
+<&x> broken connection
+<&thumb-down> node down
+end legend
+
+newpage
+
+title Lost two nodes
+
+actor "user" as user
+
+node "eclero 1 <&thumb-up>" <<node>> as n1
+
+node "eclero 2 <&thumb-down>" <<node>> as n2
+
+node "eclero 3 <&thumb-down>" <<node>> as n3
+
+n1 .d. n2 : <&x>
+n1 .d. n3 : <&x>
+n3 .l. n2 : <&x>
+
+user -l-> n1 : **1** is alive?
+n1 .l.> user : **2** no, I'm\nnot
+
+newpage
+
+[detector] as det
+[decision] as dec
+[health]
+[int_http] ..> HTTP
+
+dec - det
+int_http -- health
+health -- dec
+
+@enduml
