@@ -1,0 +1,35 @@
+<!-- Get a file from github.com and format the full file or delimited by 'start' and 'end' -->
+{{$owner := .Get "owner"}}
+{{$repo := .Get "repo"}}
+{{$path := .Get "path"}}
+{{$ref := .Get "ref"}}
+
+{{- $url := printf "https://api.github.com/repos/%s/%s/contents/%s?ref=%s" $owner $repo $path $ref -}}
+
+{{- $json := getJSON $url -}}
+
+{{$content := ($json.content | base64Decode)}}
+
+{{ if (.Get "start") and (.Get "end")}}
+{{ .Scratch.Set "codelines" (diminish $content "\n" (.Get "start") (.Get "end")) }}
+{{ else }}
+{{ .Scratch.Set "codelines" $content }}
+{{ end }}
+
+{{ $code := .Scratch.Get "codelines" }}
+
+<figure class="code">
+  <figcaption>
+    <span>
+      {{ .Get "title"}},
+      <a role="button" target="_blank" href="{{$json.html_url}}" title="See {{$json.html_url}} source on GitHub" class="tooltip see-on-github" data-tooltip="See {{$json.html_url}} source on GitHub">source code<i class="icon-github"></i></a>
+    </span>
+  </figcaption>
+  <div class="codewrapper">
+    {{- if .Get "highlight" -}}
+    {{- highlight $code (.Get "lang") (.Get "highlight") -}}
+    {{- else if len .Params | eq 5 -}}
+    {{- highlight $code (.Get "lang") "" -}}
+    {{- end -}}
+  </div>
+</figure>
