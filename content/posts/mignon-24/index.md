@@ -196,7 +196,7 @@ Durante a execução desta série de posts, tive vários pequenos impasses:
 
 * dependência de resolução de IP para nomes (utilizei o arquivo '/etc/hosts' com todos os hosts)
 * dependência, por parte do ERTS, de um shell (bash, sh) para fazer o fork de alguns ports no qual a VM Erlang necessidade (por exemplo: inet_gethost)
-* patch do erlinit para o mesmo utilizar o ERTS da aplicação e não depender dos pacotes erlang da distribuição
+* patch do erlinit para o mesmo utilizar o ERTS da aplicação e não depender dos pacotes erlang da distribuição, [Add support to use ERTS from release instead of default Erlang directory](https://github.com/nerves-project/erlinit/pull/59)
 * entender como a aplicação epmdless funciona e propor alguma solução para auto descoberta dos nós sem precisar fazer configurações adicionais
 
 Nos próximos posts da série vamos caminhar mais com a solução.
