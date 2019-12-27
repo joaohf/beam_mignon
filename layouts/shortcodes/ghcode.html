@@ -24,7 +24,7 @@
       {{- if .Get "title" -}}
       {{ .Get "title" }},
       {{- end -}}
-      <a role="button" target="_blank" href="{{$json.html_url}}" title="See {{$json.html_url}} source on GitHub" class="tooltip see-on-github" data-tooltip="See {{$json.html_url}} source on GitHub">{{$json.html_url}}<i class="icon-github"></i></a>
+      <a href="{{$json.html_url}}" title="See {{$json.html_url}} source on GitHub">{{$json.html_url}}<i class="icon-github"></i></a>
     </span>
   </figcaption>
   <div class="codewrapper">
