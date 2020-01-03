@@ -2,7 +2,7 @@
 other = "Mais"
 
 [allTitle]
-other = "Todo o {{.Title }}"
+other = "Todos os {{.Title }}"
 
 [recentTitle]
 other = "Recentes {{.Title }}"
