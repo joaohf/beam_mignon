@@ -3,14 +3,14 @@
 {{$repo := .Get "repo"}}
 {{$path := .Get "path"}}
 {{$ref := .Get "ref"}}
-
+{{$title := .Get "title"}}
 {{- $url := printf "https://api.github.com/repos/%s/%s/contents/%s?ref=%s" $owner $repo $path $ref -}}
 
 {{- $json := getJSON $url -}}
 
 {{$content := ($json.content | base64Decode)}}
 
-{{ if (.Get "start") and (.Get "end")}}
+{{ if and (.Get "start") (.Get "end") }}
 {{ .Scratch.Set "codelines" (diminish $content "\n" (.Get "start") (.Get "end")) }}
 {{ else }}
 {{ .Scratch.Set "codelines" $content }}
@@ -18,15 +18,10 @@
 
 {{ $code := .Scratch.Get "codelines" }}
 
-<figure class="code">
-  <figcaption>
-    <span>
-      {{- if .Get "title" -}}
-      {{ .Get "title" }},
-      {{- end -}}
-      <a href="{{$json.html_url}}" title="See {{$json.html_url}} source on GitHub">{{$json.html_url}}<i class="icon-github"></i></a>
-    </span>
-  </figcaption>
+  <small>
+    {{ $title }}
+    <a href="{{$json.html_url}}" title="See {{$json.html_url}} source on GitHub">{{$json.html_url}}<i class="icon-github"></i></a>
+  </small>
   <div class="codewrapper">
     {{- if .Get "highlight" -}}
     {{- highlight $code (.Get "lang") (.Get "highlight") -}}
@@ -34,4 +29,3 @@
     {{- highlight $code (.Get "lang") "" -}}
     {{- end -}}
   </div>
-</figure>
