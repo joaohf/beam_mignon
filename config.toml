@@ -22,14 +22,14 @@ disqusShortname = "beammignon"
   favicon = ""
   description = "A blog about Erlang and Elixir ecosystem."
   facebook = ""
-  twitter = ""
+  twitter = "https://twitter.com/joaohf"
   instagram = ""
   youtube = ""
   github = "https://github.com/joaohf/"
   gitlab = ""
   linkedin = "https://www.linkedin.com/in/joão-henrique-freitas"
   mastodon = ""
-  slack = "https://beam-mignon.slack.com"
+  rss = "https://beam-mignon.joaohf.tk/feed.xml"
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
   featured_image = "/images/stockholm.jpg"
@@ -59,3 +59,12 @@ toLower = false
   [[related.indices]]
   name = "date"
   weight = 10.0
+
+[outputs]
+home = [ "RSS", "HTML"]
+section  = ["HTML"]
+
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "feed"
