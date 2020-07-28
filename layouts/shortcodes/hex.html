@@ -1,0 +1,3 @@
+{{$package := .Get "package"}}
+{{- $url := printf "https://hex.pm/packages/%s" $package -}}
+<a href="{{$url}}" title="Package {{$package}}">{{$package}}</a>

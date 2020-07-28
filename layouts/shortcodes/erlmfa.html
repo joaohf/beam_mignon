@@ -1,0 +1,10 @@
+
+{{$mfa := .Get 0}}
+{{$module := index (split $mfa ":") 0}}
+{{$function := index (split (index (split $mfa ":") 1) "/") 0}}
+{{$arity := index (last 1 (split $mfa "/")) 0}}
+
+{{- $url := printf "https://erlang.org/doc/man/%s.html#%s-%s" $module $function $arity -}}
+
+<a href="{{$url}}" title="{{$mfa}}">{{$mfa}}</a>
+
