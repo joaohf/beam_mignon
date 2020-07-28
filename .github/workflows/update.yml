@@ -17,4 +17,4 @@ jobs:
           feed-url: https://beam-mignon.joaohf.tk/feed.xml
           readme-section: posts
           max: 100
-          template: "* {{ pubDate }} [{{ title }}]({{ link }}))"
+          template: "* {{ pubDate }} [{{ title }}]({{ link }})"
