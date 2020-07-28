@@ -1,10 +1,10 @@
 ---
-title: "eclero, brincando com Erlang nodes: eclero"
+title: ""
 description: ""
 toc: true
-date: 2019-12-05T22:43:50+02:00
-series: ["erlang nodes"] 
-tags: ["code", "failure", "eclero"]
+date: {{ .Date }}
+series: []
+tags: []
 featured_image: 'images/featured/eclero-0-0.jpg'
 ---
 
