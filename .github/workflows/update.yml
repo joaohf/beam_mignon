@@ -1,0 +1,19 @@
+name: Update this repo's README
+
+on:
+  schedule:
+    # Once a day at 8 AM
+    - cron: 0 8 * * *
+  push:
+    branches:
+      - master
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: JasonEtco/rss-to-readme@v1
+        with:
+          feed-url: https://beam-mignon.joaohf.tk/feed.xml
+          readme-section: posts
+          max: 100
