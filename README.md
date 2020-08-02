@@ -32,3 +32,69 @@
 * Sun, 21 Jul 2019 22:43:50 +0200 [No Meio do Caminho tinha uma pedra](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon_1&#x2F;)
 * Sat, 20 Jul 2019 22:43:50 +0200 [Introdução do BEAM Mignon](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon_0&#x2F;)
 <!--END_SECTION:posts-->
+
+## shortcodes
+
+https://gohugo.io/content-management/shortcodes/
+
+The following list describes the [Hugo shortcodes](https://gohugo.io/content-management/shortcodes) used by this blog. And are available [here](layouts/shortcodes).
+
+* asciicast
+```
+{{< asciicast hEw4Z25nz7vhXe30OhjWKiqq7 >}}
+```
+* erlmfa
+```
+{{< erlmfa "gen_udp:open/2" >}}
+```
+* figure, figurecell, figuretable
+```
+{{< figuretable >}}
+{{< figurecell >}}
+{{< figure figcaption="1: Nós operacionais." >}}
+  {{< img 20_003.png Fit "500x400" >}}
+{{< /figure >}}
+{{< /figurecell >}}
+```
+* ghcode
+```
+{{< ghcode title="APIs para consultar o estado do cluster" lang="erlang" owner="joaohf" repo="eclero" ref="mignon-20" path="apps/eclero/src/eclero_decision_server.erl" start=34 end=38 highlight="linenos=inline" >}}
+```
+* hex
+```
+{{< hex package=gpb >}}
+```
+* img
+```
+{{< img screenshot_ct.png Fit "640x480" >}}
+```
+* mfa
+```
+{{< mfa "process_packet/2" >}}
+```
+* note
+```
+{{< note >}}
+...
+{{< /note >}}
+```
+* placeholder
+```
+{{< placeholder >}}
+```
+* ref
+```
+{{< ref "/posts/mignon-20" >}}
+```
+* tip
+```
+{{< tip >}}
+...
+{{< /tip >}}
+```
+* warning
+```
+{{< warning >}}
+...
+{{< /warning >}}
+```
