@@ -8,7 +8,7 @@ tags: ["code", "ssh", "elock"]
 featured_image: 'images/featured/20190823_131050-1-0.jpg'
 ---
 
-No primeiro artigo [Gerenciamento out-of-band: SQL]({{< ref "/posts/mignon_17.md" >}}), introduzimos a ideia geral do out-of-band. Neste post vamos continuar e implementar uma outra forma de acesso. Desta vez utilizando um servidor SSH embutido na aplicação.
+No primeiro artigo {{< ref "/posts/mignon_17.md" >}}, introduzimos a ideia geral do out-of-band. Neste post vamos continuar e implementar uma outra forma de acesso. Desta vez utilizando um servidor SSH embutido na aplicação.
 
 Geralmente quando precisamos acessar alguma aplicação remotamente, utilizamos o SSH para conectar no servidor e depois podemos utilizar alguma interface de linha de comando no qual conversa com a aplicação ou fazer um 'attach' no node e executar qualquer comando.
 
@@ -26,7 +26,7 @@ Algumas premissas para utilizar este recurso são:
 
 * um módulo customizado para manipular as chaves ssh será escrito, para evitar qualquer consulta dos arquivos padrões no host (vamos interagir um pouco mais com a aplicação SSH aqui). No post [Polibot]({{< ref "/posts/mignon_8.md" >}}) fizemos algo parecido mas para um cliente SSH.
 * neste exemplo vamos restringir apenas a autenticação usando usuário e senha
-* desejável restringir quais funções podem ser executados dentro da sessão SSH. Para o nosso exemplo, vamos exportar as mesmas funções descritas no post [Gerenciamento out-of-band: SQL]({{< ref "/posts/mignon_17.md" >}}).
+* desejável restringir quais funções podem ser executados dentro da sessão SSH. Para o nosso exemplo, vamos exportar as mesmas funções descritas no post {{< ref "/posts/mignon_17.md" >}}.
 
 Ainda utilizando a aplicação _elock_, vamos expandir a implementação para suportar os nossos requisitos.
 
@@ -36,7 +36,7 @@ A implementação foi dividida nos seguintes módulos:
 * [src/elock_ssh_server_key_api.erl](https://github.com/joaohf/elock/blob/mignon-21/src/elock_ssh_server_key_api.erl), neste módulo implementamos as callbacks necessárias para o behaviour [ssh_server_key_api](http://erlang.org/doc/man/ssh_server_key_api.html). Para o nosso exemplo, estamos gerando uma chave do servidor ssh e também desabilitamos a autenticação baseada em chaves públicas. 
 * [src/elock_ssh_cli.erl](https://github.com/joaohf/elock/blob/mignon-21/src/elock_ssh_cli.erl) é o módulo responsável por receber um comando, verificar na lista de comandos e executar. Podemos implementar qualquer comando necessário e formatar o resultado do jeito que precisamos. Basicamente é onde o usuário vai interagir com o sistema.
 
-O resultado final pode ser visto no vídeo abaixo:
+O resultado final pode ser visto no vídeo abaixo (expanda o vídeo para visualizar totalmente):
 
 {{< asciicast kxxlsKs20Gyuj1Vece5y2I7Z1 >}}
 
