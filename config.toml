@@ -19,6 +19,7 @@ disqusShortname = "beammignon"
     weight = 2
 
 [params]
+  show_reading_time = true
   favicon = ""
   description = "A blog about Erlang and Elixir ecosystem."
   facebook = ""
