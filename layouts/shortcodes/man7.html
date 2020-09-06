@@ -1,0 +1,6 @@
+{{$function := .Get 0}}
+
+{{- $url := printf "https://man7.org/linux/man-pages/man2/%s.2.html" $function -}}
+
+<a href="{{$url}}" title="{{$function}}" target='_blank'>{{$function}}</a>
+

@@ -20,7 +20,7 @@
 
   <small>
     {{ $title }}
-    <a href="{{$json.html_url}}" title="See {{$json.html_url}} source on GitHub">{{$json.html_url}}<i class="icon-github"></i></a>
+    <a href="{{$json.html_url}}" title="See {{$json.html_url}} source on GitHub" target='_blank'>{{$json.html_url}}<i class="icon-github"></i></a>
   </small>
   <div class="codewrapper">
     {{- if .Get "highlight" -}}

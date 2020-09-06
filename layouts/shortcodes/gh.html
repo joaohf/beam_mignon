@@ -1,0 +1,6 @@
+{{$owner_project := .Get 0}}
+
+{{- $url := printf "https://www.github.com/%s" $owner_project -}}
+
+<a href="{{$url}}" title="{{$owner_project}}" target='_blank'>{{$owner_project}}</a>
+

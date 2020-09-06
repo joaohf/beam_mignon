@@ -15,3 +15,24 @@ other = "O que há neste {{ .Type }}"
 
 [related]
 other = "Relacionado"
+
+[layouts_docs_glossary_aka]
+other = "Também conhecido como"
+
+[layouts_docs_glossary_description]
+other = "Este glossário tem a intenção de listar os principais termos usados no site."
+
+[layouts_docs_glossary_deselect_all]
+other = "Remover seleção"
+
+[layouts_docs_glossary_click_details_after]
+other = "abaixo para obter explicações mais longs de algum termo particular."
+
+[layouts_docs_glossary_click_details_before]
+other = "Clique no sinal"
+
+[layouts_docs_glossary_filter]
+other = "Filtrar os termos de acordo com as tags"
+
+[layouts_docs_glossary_select_all]
+other = "Selecionar todos"
