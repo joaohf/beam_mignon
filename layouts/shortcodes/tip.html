@@ -1,4 +1,11 @@
-<aside class="w-90 ba br2 pa3 ma2 blue bg-washed-blue admonition tip">
-	<h3>Tip:</h3>
-	<div class="admonition-content">{{- (.Inner | markdownify) -}}</div>
-</aside>
+<div>
+    <aside class="callout dark-gray bg-washed-green">
+        <div class="type">
+            {{- partial "large_icon.html" "callout-tip" -}}
+        </div>
+        <div class="content">
+            {{- $text := partial "strip_indent.html" (dict "content" .Inner "pos" .Position) -}}
+            {{- $text | markdownify -}}
+        </div>
+    </aside>
+</div>

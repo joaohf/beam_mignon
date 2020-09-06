@@ -1,0 +1,6 @@
+{{$module := .Get 0}}
+
+{{- $url := printf "https://hexdocs.pm/elixir/%s.html" $module -}}
+
+<a href="{{$url}}" title="{{$module}}" target='_blank'>{{$module}}</a>
+

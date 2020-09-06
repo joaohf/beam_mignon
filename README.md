@@ -47,6 +47,14 @@ The following list describes the [Hugo shortcodes](https://gohugo.io/content-man
 ```
 {{< erlmfa "gen_udp:open/2" >}}
 ```
+* linux man pages
+```
+{{< man7 "write" >}}
+```
+* exm
+```
+{{< exm "DynamicSupervisor" >}}
+```
 * figure, figurecell, figuretable
 ```
 {{< figuretable >}}
@@ -72,12 +80,6 @@ The following list describes the [Hugo shortcodes](https://gohugo.io/content-man
 ```
 {{< mfa "process_packet/2" >}}
 ```
-* note
-```
-{{< note >}}
-...
-{{< /note >}}
-```
 * placeholder
 ```
 {{< placeholder >}}
@@ -85,6 +87,12 @@ The following list describes the [Hugo shortcodes](https://gohugo.io/content-man
 * ref
 ```
 {{< ref "/posts/mignon-20" >}}
+```
+* note
+```
+{{< note >}}
+...
+{{< /note >}}
 ```
 * tip
 ```
@@ -97,4 +105,34 @@ The following list describes the [Hugo shortcodes](https://gohugo.io/content-man
 {{< warning >}}
 ...
 {{< /warning >}}
+```
+* quote
+```
+{{< quote >}}
+...
+{{< /quote >}}
+```
+* opinion
+```
+{{< opinion >}}
+...
+{{< /opinion >}}
+```
+* idea
+```
+{{< idea>}}
+...
+{{< /idea >}}
+```
+* glossary tooltip
+```
+{{< glossary_tooltip text="cluster" term_id="cluster" >}}
+```
+* glossary short definition
+```
+{{< glossary_definition prepend="A cluster is" term_id="cluster" length="short" >}}
+```
+* glossary full definition
+```
+{{< glossary_definition term_id="cluster" length="all" >}}
 ```
