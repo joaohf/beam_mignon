@@ -1,0 +1,15 @@
+@startuml
+' !include https://raw.githubusercontent.com/joaohf/OTP-PlantUML/master/OTP_SupervisorTree.iuml
+' uncomment the following line and comment the first to use locally
+!include /home/joaohf/work/projetos/OTP-PlantUML/OTP_SupervisorTree.iuml
+
+Supervisor(epad, "Epad", "one_for_one")
+Agent(player, "Epad.Player")
+Supervisor(hubs, "Epad.Hubs", "one_for_one")
+DynamicSupervisor(hub_gamepad, "Epad.Hubs.Gamepad")
+
+Rel(epad, player)
+Rel(epad, hubs)
+Rel(hubs, hub_gamepad)
+
+@enduml
