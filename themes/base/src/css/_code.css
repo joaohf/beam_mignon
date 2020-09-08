@@ -1,0 +1,27 @@
+
+pre, .pre  {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+pre, .asciiart {
+  display: block;
+  padding: 1.5em 1.5em;
+  white-space: pre;
+  font-size: .875rem;
+  line-height: 2;
+
+}
+
+pre  code {
+  display: block;
+  white-space: pre;
+  font-size: .875rem;
+  line-height: 2;
+}
+
+pre {
+  white-space: pre;
+  hyphens: none;
+  position: relative;
+}
