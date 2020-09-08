@@ -1,0 +1,64 @@
+   .large-icon {
+    width:1.4em;
+    height:1.4em;
+    display:inline;
+    fill: #535f61;
+    stroke: #535f61;
+    vertical-align:middle
+   }
+
+   .callout {
+    padding:.5em;
+    border-radius:4px;
+    border-width:1px;
+    border-style:solid;
+    display:inline-block;
+    position:relative;
+    margin:1em 0 1em 1em;
+    max-width:calc(100% - .5em - .5em - 1em)
+   }
+
+   .callout .type {
+    left:-0.75em;
+    top:50%;
+    transform:translateY(-50%);
+    position:absolute
+   }
+   .callout .type svg {
+    fill: #68aaf7;
+   }
+   .callout .content {
+    margin-left:1em;
+    min-height:100%
+   }
+   .callout .content p:first-of-type {
+    margin-top:0
+   }
+   .callout .content p:last-of-type {
+    margin-bottom:0
+   }
+   .callout:hover .type svg {
+    animation:shake 2.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    transform:translate3d(0, 0, 0);
+    backface-visibility:hidden;
+    perspective:1000px
+   }
+   @keyframes shake {
+    10%,
+    90% {
+     transform:translate3d(-1px, 0, 0)
+    }
+    20%,
+    80% {
+     transform:translate3d(2px, 0, 0)
+    }
+    30%,
+    50%,
+    70% {
+     transform:translate3d(-4px, 0, 0)
+    }
+    40%,
+    60% {
+     transform:translate3d(4px, 0, 0)
+    }
+   }

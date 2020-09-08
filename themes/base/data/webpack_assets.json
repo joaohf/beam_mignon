@@ -1,0 +1,13 @@
+{
+  "app": {
+    "css": "css/app.474611559611b8dcff20.css",
+    "js": "js/app.52612bc3df889fb5dda4.js"
+  },
+  "glossary": {
+    "css": "css/glossary.007ddfd50f30f8cb1844.css",
+    "js": "js/glossary.591877a646929f66b7b5.js"
+  },
+  "spritemap": {
+    "svg": "images/icons.svg"
+  }
+}
