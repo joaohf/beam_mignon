@@ -7,6 +7,7 @@
 | Release Date  |  Link  |
 | :------------- | :------ |
 <!--START_SECTION:posts-->
+| Fri, 28 Aug 2020 22:43:50 +0200 | [Gamepad](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-29&#x2F;) |
 | Sun, 26 Jul 2020 22:43:50 +0200 | [riemann echo](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-26&#x2F;) |
 | Wed, 29 Jan 2020 18:43:50 +0200 | [eclero, coletando métricas](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-25&#x2F;) |
 | Sat, 21 Dec 2019 22:45:50 +0200 | [Brincando com Erlang nodes: cloonix](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-24&#x2F;) |
