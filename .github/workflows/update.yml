@@ -12,7 +12,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: joaohf/rss-to-readme@v1.1.0
+      - uses: joaohf/rss-to-readme@v1.2.0
         with:
           feed-url: https://beam-mignon.joaohf.tk/feed.xml
           readme-section: posts
