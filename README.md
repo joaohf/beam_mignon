@@ -7,6 +7,7 @@
 <!--START_SECTION:posts-->
 | Release Date  |  Link  |
 | :------------- | :------ |
+| Mon, 02 Nov 2020 19:30:00 +0200 | [mermaid com edoc ou ex_docs](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-30&#x2F;) |
 | Fri, 28 Aug 2020 22:43:50 +0200 | [Gamepad](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-29&#x2F;) |
 | Sun, 26 Jul 2020 22:43:50 +0200 | [riemann echo](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-26&#x2F;) |
 | Wed, 29 Jan 2020 18:43:50 +0200 | [eclero, coletando métricas](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-25&#x2F;) |
