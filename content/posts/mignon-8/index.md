@@ -115,10 +115,15 @@ Mais detalhes dos argumentos e funcionalidades em [rebar3 ct](https://www.rebar3
 
 A cada execução dos testes um relatório é gerado onde podemos acompanhar os resultados. Eu gosto bastante dos relatórios pois são simples e com alguns detalhes importantes como tempo de execução e configuração do ambiente.
 
-{{< figure src="/images/polibot_results_1.png" title="Página inicial do relatório de testes" >}}
 
+{{< figure figcaption="Resultados 1" >}}
+  {{< img polibot_results_1.png Fit "600x480" >}}
+{{< /figure >}}
 
-{{< figure src="/images/polibot_results_2.png" title="Overview dos resultados dos testes" >}}
+{{< figure figcaption="Resultados 2" >}}
+  {{< img polibot_results_2.png Fit "600x480" >}}
+{{< /figure >}}
+
 
 ## Mudar as configuração dos testes deve ser trivial
 
