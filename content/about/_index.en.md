@@ -4,4 +4,4 @@ description: "BEAM Mignon is a darling blog to read"
 featured_image: ''
 ---
 
-This is a blog which address Brazilian Portuguese native speakers who wish to deepen your knowledge about BEAM or for starters who need to be sharpe in a short period of time.
+The original idea was to be a  blog for pt_BR and pt_PT who wish to get a deep knowledge about BEAM or for starters who need to be sharp in a short period of time.

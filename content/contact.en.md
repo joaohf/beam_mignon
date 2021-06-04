@@ -1,13 +1,12 @@
 ---
 title: Contact
-description: We'd love to hear from you
+description: I'd love to hear from you
 type: page
 menu:
   main: {}
-
+featured_image: 'images/static1.squarespace.com.png'
 ---
 
-Please, if you have any suggestion or other questions send me a message using the form below:
+My name is [João Henrique Ferreira de Freitas](https://www.linkedin.com/in/jo%C3%A3o-henrique-freitas/) and I'm a Software Developer specialized in Linux and Open Source.
 
-{{< form-contact action="https://formspree.io/joaohf@gmail.com" method="POST" >}}
-
+Please, if you have any suggestion or other questions send me an email to joaohf@gmail.com
