@@ -15,14 +15,14 @@
 | Sat, 21 Dec 2019 22:45:50 +0200 | [Brincando com Erlang nodes: epmd](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-23&#x2F;) |
 | Fri, 20 Dec 2019 22:45:50 +0200 | [Brincando com Erlang nodes: embedded](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-22&#x2F;) |
 | Thu, 05 Dec 2019 22:43:50 +0200 | [Brincando com Erlang nodes: eclero](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-20&#x2F;) |
-| Tue, 26 Nov 2019 22:43:50 +0200 | [Como documentar e comunicar aplicações OTP](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon_19&#x2F;) |
+| Tue, 26 Nov 2019 22:43:50 +0200 | [Como documentar e comunicar aplicações OTP](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-19&#x2F;) |
 | Sat, 21 Sep 2019 22:43:50 +0200 | [Gerenciamento out-of-band: SSH](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon_21&#x2F;) |
 | Sat, 14 Sep 2019 22:43:50 +0200 | [Gerenciamento out-of-band: SQL](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon_17&#x2F;) |
 | Wed, 11 Sep 2019 22:43:50 +0200 | [meta-erlang com LTTng](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon_16&#x2F;) |
 | Mon, 09 Sep 2019 21:33:50 +0200 | [Ativando traces usando LTTng](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon_15&#x2F;) |
 | Fri, 30 Aug 2019 22:43:50 +0200 | [Opções para repositório de pacotes hex.pm](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon_14&#x2F;) |
 | Tue, 27 Aug 2019 22:43:50 +0200 | [Erlang Ecosystem Foundation](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon_13&#x2F;) |
-| Sat, 24 Aug 2019 18:00:50 +0200 | [Polibot](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon_8&#x2F;) |
+| Sat, 24 Aug 2019 18:00:50 +0200 | [Polibot](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-8&#x2F;) |
 | Sat, 17 Aug 2019 12:15:50 +0200 | [Trace instrumentando o código com dbg](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon_12&#x2F;) |
 | Tue, 13 Aug 2019 18:17:50 +0200 | [Vamos testar: exunit](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon_5&#x2F;) |
 | Tue, 13 Aug 2019 17:43:50 +0200 | [Elixir: mocks, stubs](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mginon_11&#x2F;) |
