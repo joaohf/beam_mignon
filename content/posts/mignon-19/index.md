@@ -22,7 +22,9 @@ Para facilitar, criei alguns includes nos quais podem ser úteis para a escrita 
 
 ### Diagrama de Sequencia
 
-{{< figure src="/puml/19.2.png" >}}
+{{< figure figcaption="Base and Top messages" >}}
+  {{< img 19.2.png Fit "500x400" >}}
+{{< /figure >}}
 
 E abaixo está o script que usei para contruir a imagem acima:
 
@@ -59,7 +61,9 @@ Geralmente quando queremos saber o que uma aplicação escrita em Erlang ou Elix
 
 Documentar como os processos e quais os tipos de supervisão a aplicação utiliza fica bem fácil utilizando o include [OTP_SupervisorTree](https://raw.githubusercontent.com/joaohf/OTP-PlantUML/master/OTP_SupervisorTree.iuml).
 
-{{< figure src="/puml/19.1.png" >}}
+{{< figure figcaption="Supervisor tree" >}}
+  {{< img 19.1.png Fit "500x400" >}}
+{{< /figure >}}
 
 O seguinte código foi usado para gerar a imagem acima:
 
