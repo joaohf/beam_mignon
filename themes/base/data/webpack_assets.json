@@ -1,11 +1,11 @@
 {
   "app": {
-    "css": "css/app.474611559611b8dcff20.css",
-    "js": "js/app.52612bc3df889fb5dda4.js"
+    "css": "css/app.06959dd0e2d296424025.css",
+    "js": "js/app.7a735ee0511f2122f88d.js"
   },
   "glossary": {
-    "css": "css/glossary.007ddfd50f30f8cb1844.css",
-    "js": "js/glossary.591877a646929f66b7b5.js"
+    "css": "css/glossary.4fa43ad376ba635f75e4.css",
+    "js": "js/glossary.273e8b1c73feb466738f.js"
   },
   "spritemap": {
     "svg": "images/icons.svg"
