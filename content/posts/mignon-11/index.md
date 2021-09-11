@@ -5,6 +5,7 @@ toc: true
 date: 2019-08-13T17:43:50+02:00
 tags: ["testes"]
 series: ["vamos testar"]
+featured_image: 'images/featured/11.jpg'
 ---
 
 As duas abordagens abaixo servem para configurar um projeto para utilizar mocks durante os testes.

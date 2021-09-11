@@ -5,6 +5,7 @@ toc: true
 date: 2019-08-06T21:30:50+02:00
 tags: ["testes"]
 series: ["vamos testar"]
+featured_image: 'images/featured/4.jpg'
 ---
 
 `common_test` é uma das aplicações mais interessantes que acompanha a distribuição Erlang/OTP. Digo isso pois os casos de uso que a ferramenta resolve são baseados em casos reais da indústria. Podemos realizar vários tipos de testes, por exemplo:

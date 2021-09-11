@@ -5,6 +5,7 @@ toc: true
 date: 2019-07-20T22:43:50+02:00
 tags: ["intro"]
 series: ["101"]
+featured_image: 'images/featured/0.jpg'
 ---
 
 # Um blog em português

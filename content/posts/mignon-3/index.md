@@ -5,6 +5,7 @@ toc: true
 date: 2019-08-06T21:00:50+02:00
 tags: ["testes"]
 series: ["vamos testar"]
+featured_image: 'images/featured/3.jpg'
 ---
 
 `eunit` é um framework para testes leves e parte da distribuição Erlang/OTP padrão. 

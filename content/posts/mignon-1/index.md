@@ -5,6 +5,7 @@ toc: true
 date: 2019-07-21T22:43:50+02:00
 tags: ["intro"]
 series: ["101"]
+featured_image: 'images/featured/1.jpg'
 ---
 
 # Como conheci Erlang/OTP

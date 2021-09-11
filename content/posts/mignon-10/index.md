@@ -5,6 +5,7 @@ toc: true
 date: 2019-08-11T21:43:50+02:00
 tags: ["intro"]
 series: ["101"]
+featured_image: 'images/featured/10.jpg'
 ---
 
 Alguns comentários sobre as questões contidas nesta apresentação [On Network Configuration, Distributed and Concurrent Programming with Erlang Chalmers](http://www.cse.chalmers.se/edu/year/2015/course/TDA383_LP3/assets/gl/Cons_2016-02-15.pdf) sobre o tema "Erlang bad parts":
