@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: joaohf/rss-to-readme@v1.2.0
         with:
-          feed-url: https://beam-mignon.joaohf.tk/feed.xml
+          feed-url: https://beam-mignon.netlify.app/feed.xml
           readme-section: posts
           max: 100
           pre_template: "| Release Date  |  Link  |\n| :------------- | :------ |"
