@@ -7,6 +7,7 @@
 <!--START_SECTION:posts-->
 | Release Date  |  Link  |
 | :------------- | :------ |
+| Sun, 30 Jan 2022 21:46:00 +0200 | [Simuladores em Erlang](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-32&#x2F;) |
 | Sun, 03 Oct 2021 21:46:00 +0200 | [Aplicações distribuídas com OTP](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-31&#x2F;) |
 | Mon, 02 Nov 2020 19:30:00 +0200 | [mermaid com edoc ou ex_docs](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-30&#x2F;) |
 | Fri, 28 Aug 2020 22:43:50 +0200 | [Gamepad](https:&#x2F;&#x2F;beam-mignon.netlify.com&#x2F;posts&#x2F;mignon-29&#x2F;) |
