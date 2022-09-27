@@ -1,8 +1,8 @@
 ---
 title: 'Buses'
-description: ''
+description: 'Sumarizes the current state for embedded libraries on BEAM'
 toc: true
-date: 2026-09-22T21:00:00+02:00
+date: 2022-09-26T21:00:00+02:00
 series: ['embedded']
 tags: ['code', 'libraries']
 featured_image: 'images/featured/33.jpg'
