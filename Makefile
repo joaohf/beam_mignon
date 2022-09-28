@@ -1,7 +1,7 @@
 .PHONY: all clean server
 
 HUGO := ./hugo
-HUGO_RELEASE := https://github.com/joaohf/hugo/releases/download/v0.73.0-diminish/hugo
+HUGO_RELEASE := https://github.com/joaohf/hugo/releases/download/v0.104.1-diminish/hugo
 
 # Below are PHONY targets
 all: server
