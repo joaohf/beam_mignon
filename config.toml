@@ -8,7 +8,6 @@ enableRobotsTXT = true
 Paginate = 15
 SectionPagesMenu = "main"
 googleAnalytics = "UA-145112810-1"
-disqusShortname = "beammignon"
 
 [languages]
   [languages.pt-br]
