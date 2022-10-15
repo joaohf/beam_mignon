@@ -2,14 +2,16 @@
 title: userland
 id: userland
 date: 2020-08-29
-full_link: 
+full_link:
 short_description: >
-   Qualquer aplicação ou código que execute fora do kernel do sistema operacional.
+  Qualquer aplicação ou código que execute fora do kernel do sistema
+  operacional.
 
-aka: 
+aka:
 tags:
-- general
+  - general
 ---
+
 Qualquer aplicação ou código que execute fora do kernel do sistema operacional.
 
 <!--more-->

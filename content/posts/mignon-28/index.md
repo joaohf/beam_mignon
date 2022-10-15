@@ -1,10 +1,10 @@
 ---
-title: "Como construir um agente SNMP com OTP"
-description: "Detalhes sobre a implementação de um agente SNMP"
+title: 'Como construir um agente SNMP com OTP'
+description: 'Detalhes sobre a implementação de um agente SNMP'
 toc: true
 date: 2020-08-09T22:43:50+02:00
-series: ["servers"] 
-tags: ["code", "snmp"]
+series: ['servers']
+tags: ['code', 'snmp']
 featured_image: 'images/featured/28.jpg'
 draft: true
 ---
