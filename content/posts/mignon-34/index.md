@@ -1,6 +1,7 @@
 ---
 title: 'BEAM Tools'
-description: 'Erlang e Elixir atual, instalado e funcional em menos de 3 minutos'
+description:
+  'Erlang e Elixir atual, instalado e funcional em menos de 3 minutos'
 toc: true
 date: 2022-09-27T21:00:00+02:00
 series: ['beamtools']
@@ -26,9 +27,8 @@ opções:
 - fazer o download e instalar os pacotes da
   [Erlang Solutions](https://www.erlang-solutions.com/downloads/). Também bem
   prático mas não existe opção de customizar
-- baixar o código fonte em
-  [Erlang OTP](https://github.com/erlang/otp/blob/master/HOWTO/INSTALL.md) e
-  seguir o documento
+- baixar o código fonte em [Erlang OTP](https://github.com/erlang/otp/releases)
+  e seguir o documento
   [INSTALL.md](https://github.com/erlang/otp/blob/master/HOWTO/INSTALL.md)
 
 Todas as opções acima funcionam. Entretanto, beamtools pode ser uma alternativa
