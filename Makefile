@@ -1,6 +1,7 @@
 .PHONY: all clean server build
 
 HUGO := ./hugo
+PRETTIER := prettier
 HUGO_RELEASE := https://github.com/joaohf/hugo/releases/download/v0.104.1-diminish/hugo
 DEPLOY_PRIME_URL := https://beam-mignon.netlify.app/
 
@@ -17,4 +18,5 @@ server: clean
 	$(HUGO) server -D -F
 
 build:
-	$(HUGO) --gc --minify --enableGitInfo -b $(DEPLOY_PRIME_URL)
+	$(PRETTIER) --write content
+	$(HUGO) --gc --minify --enableGitInfo --cleanDestinationDir -b $(DEPLOY_PRIME_URL)
