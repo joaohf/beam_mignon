@@ -2,16 +2,17 @@
 title: toolchain
 id: toolchain
 date: 2020-08-29
-full_link: 
+full_link:
 short_description: >
-   É um conjunto de ferramentas organizadas nas quais são usadas para compilação ou execução
-   de aplicações.
+  É um conjunto de ferramentas organizadas nas quais são usadas para compilação
+  ou execução de aplicações.
 
-aka: 
+aka:
 tags:
-- general
+  - general
 ---
-   É um conjunto de ferramentas organizadas nas quais são usadas para compilação ou execução
-   de aplicações.
+
+É um conjunto de ferramentas organizadas nas quais são usadas para compilação ou
+execução de aplicações.
 
 <!--more-->
