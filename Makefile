@@ -19,4 +19,4 @@ server: clean
 
 build:
 	$(PRETTIER) --write content
-	$(HUGO) --gc --minify --enableGitInfo --cleanDestinationDir -b $(DEPLOY_PRIME_URL)
+	HUGO_ENV=production $(HUGO) --gc --minify --enableGitInfo --cleanDestinationDir -b $(DEPLOY_PRIME_URL)
