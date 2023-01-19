@@ -7,6 +7,7 @@
 <!--START_SECTION:posts-->
 | Release Date  |  Link  |
 | :------------- | :------ |
+| Sat, 14 Jan 2023 21:00:00 +0200 | [Criando parser para arquivos texto](https:&#x2F;&#x2F;beam-mignon.netlify.app&#x2F;posts&#x2F;mignon-35&#x2F;) |
 | Tue, 27 Sep 2022 21:00:00 +0200 | [BEAM Tools](https:&#x2F;&#x2F;beam-mignon.netlify.app&#x2F;posts&#x2F;mignon-34&#x2F;) |
 | Mon, 26 Sep 2022 21:00:00 +0200 | [Barramentos](https:&#x2F;&#x2F;beam-mignon.netlify.app&#x2F;posts&#x2F;mignon-33&#x2F;) |
 | Sun, 30 Jan 2022 21:46:00 +0200 | [Simuladores em Erlang](https:&#x2F;&#x2F;beam-mignon.netlify.app&#x2F;posts&#x2F;mignon-32&#x2F;) |
